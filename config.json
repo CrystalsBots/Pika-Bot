@@ -1,0 +1,38 @@
+{
+    "ingame": {
+      "host": "play.pikanetwork.net",
+      "username": "{username of the fac bot}",
+      "password": "/login {your password} ",
+      "macro_command": "/server opfactions",
+      "macro_command_cooldown": 2
+    },
+    "discord": {
+      "BOT_TOKEN": "{your discord bot token}",
+      "prefix": ".",
+      "send_a_msg_ingame_cmd": "sudo",
+      "ingame_chat_toggle": false,
+      "ingame_chat_channel_id": "{id for the ingame chat to discord chat}"
+    },
+    "alerts": {
+      "shield_toggle": true,
+      "shield_role": "{id of the defending role}",
+      "channel_id": "{id of the channle where it should ping for shield off}",
+      "shield_off": "{what time is ur shield falling off? ( server time, recommended to set it 15 min early so the players can logon.)}",
+      "shield_on": "{just a simple alert in the same channle, letting the players know they are on shield}"
+    },
+    "black_market": {
+      "toggle": true,
+      "channel_id": "{id of the black market message}",
+      "black_market_role_id": "{which role id should it ping when the bm is about to reset.}"
+    },
+    "auto_cmds": {
+      "auto_flist_toggle": false,
+      "auto_flist_channel_id": "{id for auto message for flist}",
+      "auto_flist_cooldown": 3,
+  
+      "auto_ftop_toggle": false,
+      "auto_ftop_channel_id": "{id for auto ftop}",
+      "auto_ftop_cooldown": 30
+    }
+  }
+  
